@@ -3,16 +3,14 @@ package com.example.demo;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 @SpringBootTest
 class DemoApplicationTests {
-	@Test
-	void contextLoads() {
 
-   void contextLoads() {
-	 system.out.println(" it is a test class ") ;
-	 assserequals(expected true , actual true ) ;
-   }
-
-	
-	}
+    @Test
+    void contextLoads() {
+        System.out.println("It is a test class");
+        assertEquals(true, true);
+    }
 }
